@@ -1,0 +1,46 @@
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-img {
+        flex-direction: row;
+    }
+
+    .game-container {
+        flex-direction: column;
+    }
+
+    .grid-section {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    .game-container {
+        grid-template-columns: 1fr;
+    }
+
+    .game-products {
+        flex-direction: column;
+    }
+
+    .iconbar-container {
+        grid-template-columns: 3fr;
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+
+
+
+}
